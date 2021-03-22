@@ -10,6 +10,7 @@
     <bpmn:dataStoreReference id="DataStoreReference_1ilvv1m" />
     <bpmn:subProcess id="Activity_0c1plk5">
       <bpmn:startEvent id="Event_19mb5w7" />
+      <bpmn:exclusiveGateway id="Gateway_0gxxutg" />
     </bpmn:subProcess>
     <bpmn:subProcess id="Activity_1php58f">
       <bpmn:startEvent id="Event_11mzjom" />
@@ -37,6 +38,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_19mb5w7_di" bpmnElement="Event_19mb5w7">
         <dc:Bounds x="250" y="162" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0gxxutg_di" bpmnElement="Gateway_0gxxutg" isMarkerVisible="true">
+        <dc:Bounds x="395" y="145" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1php58f_di" bpmnElement="Activity_1php58f" isExpanded="true">
         <dc:Bounds x="1040" y="200" width="350" height="200" />
