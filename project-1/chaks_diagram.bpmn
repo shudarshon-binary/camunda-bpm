@@ -14,6 +14,8 @@
     </bpmn:subProcess>
     <bpmn:subProcess id="Activity_1php58f">
       <bpmn:startEvent id="Event_11mzjom" />
+      <bpmn:exclusiveGateway id="Gateway_0etu1ud" />
+      <bpmn:exclusiveGateway id="Gateway_0b2tnup" />
     </bpmn:subProcess>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
@@ -47,6 +49,12 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_11mzjom_di" bpmnElement="Event_11mzjom">
         <dc:Bounds x="1080" y="282" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0etu1ud_di" bpmnElement="Gateway_0etu1ud" isMarkerVisible="true">
+        <dc:Bounds x="1175" y="285" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0b2tnup_di" bpmnElement="Gateway_0b2tnup" isMarkerVisible="true">
+        <dc:Bounds x="1245" y="285" width="50" height="50" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
