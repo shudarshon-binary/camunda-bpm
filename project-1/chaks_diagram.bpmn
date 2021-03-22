@@ -16,7 +16,7 @@
     <bpmn:subProcess id="Activity_1php58f">
       <bpmn:startEvent id="Event_11mzjom" name="request received" />
       <bpmn:exclusiveGateway id="Gateway_0etu1ud" name="write your name" />
-      <bpmn:exclusiveGateway id="Gateway_0b2tnup" />
+      <bpmn:exclusiveGateway id="Gateway_0b2tnup" name="Approved?" />
     </bpmn:subProcess>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
@@ -65,6 +65,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_0b2tnup_di" bpmnElement="Gateway_0b2tnup" isMarkerVisible="true">
         <dc:Bounds x="1245" y="285" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1243" y="342" width="54" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
