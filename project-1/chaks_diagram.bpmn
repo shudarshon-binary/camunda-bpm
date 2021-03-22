@@ -18,6 +18,10 @@
       <bpmn:exclusiveGateway id="Gateway_0etu1ud" name="write your name" />
       <bpmn:exclusiveGateway id="Gateway_0b2tnup" name="Approved?" />
     </bpmn:subProcess>
+    <bpmn:exclusiveGateway id="Gateway_1i7hei0" />
+    <bpmn:subProcess id="Activity_0fgke9m">
+      <bpmn:startEvent id="Event_1xzemji" />
+    </bpmn:subProcess>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1n5aoi3">
@@ -35,6 +39,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="DataStoreReference_1ilvv1m_di" bpmnElement="DataStoreReference_1ilvv1m">
         <dc:Bounds x="645" y="335" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_1i7hei0_di" bpmnElement="Gateway_1i7hei0" isMarkerVisible="true">
+        <dc:Bounds x="835" y="135" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0c1plk5_di" bpmnElement="Activity_0c1plk5" isExpanded="true">
         <dc:Bounds x="210" y="80" width="350" height="200" />
@@ -68,6 +75,12 @@
         <bpmndi:BPMNLabel>
           <dc:Bounds x="1243" y="342" width="54" height="14" />
         </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0fgke9m_di" bpmnElement="Activity_0fgke9m" isExpanded="true">
+        <dc:Bounds x="620" y="260" width="350" height="200" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1xzemji_di" bpmnElement="Event_1xzemji">
+        <dc:Bounds x="660" y="342" width="36" height="36" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
