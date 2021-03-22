@@ -5,11 +5,19 @@
     <bpmn:subProcess id="Activity_0c1plk5">
       <bpmn:startEvent id="Event_19mb5w7" />
     </bpmn:subProcess>
+    <bpmn:exclusiveGateway id="Gateway_0tkzyvt" />
+    <bpmn:dataStoreReference id="DataStoreReference_1ilvv1m" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_19dxcrq">
       <bpmndi:BPMNShape id="Gateway_1oh12g5_di" bpmnElement="Gateway_1oh12g5" isMarkerVisible="true">
         <dc:Bounds x="555" y="155" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0tkzyvt_di" bpmnElement="Gateway_0tkzyvt" isMarkerVisible="true">
+        <dc:Bounds x="295" y="325" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataStoreReference_1ilvv1m_di" bpmnElement="DataStoreReference_1ilvv1m">
+        <dc:Bounds x="595" y="335" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0c1plk5_di" bpmnElement="Activity_0c1plk5" isExpanded="true">
         <dc:Bounds x="160" y="80" width="350" height="200" />
