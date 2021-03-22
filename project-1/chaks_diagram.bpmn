@@ -24,6 +24,8 @@
       <bpmn:exclusiveGateway id="Gateway_19nzuit" />
       <bpmn:exclusiveGateway id="Gateway_11yh5ss" />
     </bpmn:subProcess>
+    <bpmn:intermediateThrowEvent id="Event_1pvi5zf" />
+    <bpmn:exclusiveGateway id="Gateway_03iuohh" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1n5aoi3">
@@ -41,6 +43,12 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="DataStoreReference_1ilvv1m_di" bpmnElement="DataStoreReference_1ilvv1m">
         <dc:Bounds x="645" y="335" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1pvi5zf_di" bpmnElement="Event_1pvi5zf">
+        <dc:Bounds x="652" y="122" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_03iuohh_di" bpmnElement="Gateway_03iuohh" isMarkerVisible="true">
+        <dc:Bounds x="965" y="115" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0c1plk5_di" bpmnElement="Activity_0c1plk5" isExpanded="true">
         <dc:Bounds x="210" y="80" width="350" height="200" />
