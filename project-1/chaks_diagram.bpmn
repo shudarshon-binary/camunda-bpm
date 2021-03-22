@@ -21,6 +21,8 @@
     <bpmn:exclusiveGateway id="Gateway_1i7hei0" />
     <bpmn:subProcess id="Activity_0fgke9m">
       <bpmn:startEvent id="Event_1xzemji" />
+      <bpmn:exclusiveGateway id="Gateway_19nzuit" />
+      <bpmn:exclusiveGateway id="Gateway_11yh5ss" />
     </bpmn:subProcess>
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
@@ -39,9 +41,6 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="DataStoreReference_1ilvv1m_di" bpmnElement="DataStoreReference_1ilvv1m">
         <dc:Bounds x="645" y="335" width="50" height="50" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Gateway_1i7hei0_di" bpmnElement="Gateway_1i7hei0" isMarkerVisible="true">
-        <dc:Bounds x="835" y="135" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0c1plk5_di" bpmnElement="Activity_0c1plk5" isExpanded="true">
         <dc:Bounds x="210" y="80" width="350" height="200" />
@@ -76,11 +75,20 @@
           <dc:Bounds x="1243" y="342" width="54" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_1i7hei0_di" bpmnElement="Gateway_1i7hei0" isMarkerVisible="true">
+        <dc:Bounds x="835" y="135" width="50" height="50" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0fgke9m_di" bpmnElement="Activity_0fgke9m" isExpanded="true">
         <dc:Bounds x="620" y="260" width="350" height="200" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1xzemji_di" bpmnElement="Event_1xzemji">
         <dc:Bounds x="660" y="342" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_19nzuit_di" bpmnElement="Gateway_19nzuit" isMarkerVisible="true">
+        <dc:Bounds x="755" y="305" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_11yh5ss_di" bpmnElement="Gateway_11yh5ss" isMarkerVisible="true">
+        <dc:Bounds x="755" y="395" width="50" height="50" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
